@@ -12,7 +12,7 @@ import time
 import csv
 
 # Import the robot environment
-from robot_script import RobotEnv, MapType
+from robot import RobotEnv, MapType
 
 # Set device for PyTorch
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
